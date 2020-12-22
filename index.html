@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>create a music player with the java script</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="main_div">
+      <audio src="music/ms (1).mp3" id="music"></audio>
+      <div class="card">
+        <div class="card_header">
+          <h3><i class="fa fa-music"></i> music player</h3>
+          <small><i class="fa fa-code"></i> excellent code with aj</small>
+        </div>
+        <div class="card_body">
+          <div class="title_set">
+            <div class="slider_div" id="sldiv">
+                <span class="sp" ></span>
+                <span class="sp1" ></span>
+                <span class="sp2" ></span>
+                <span class="sp3" ></span>
+                <span class="sp4" ></span>
+                <span class="sp5" ></span>
+                <span class="sp6" ></span>
+                <span class="sp7" ></span>
+                <span class="sp8" ></span>
+            </div>
+            <div class="text_div">
+              <strong id="song_name">saajan ji ghar aaye ..</strong>
+              <p id="artistName">annaya arora!</p>
+              <small id="almName">Title Songs</small>
+
+              <button>more details</button>
+            </div>
+          </div>
+          <div class="img_set">
+            <img src="images/ms (1).jpg" alt="imge" id="img_id" />
+          </div>
+        </div>
+        <div class="card_footer">
+            <div class="progress_div">
+                <small id="crnt">00:00</small>
+                <div class="prg_div" id="pro_main">
+                  <div class="main_root" id ="prg_set"></div>
+                </div>
+                <small id="durat">00:00</small>
+            </div>
+            <div class="buttons_div">
+               <i class="fa fa-backward" id="prev"></i>
+               <i class="fa fa-play" id="play"></i>
+               <i class="fa fa-forward" id="forward"></i>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
